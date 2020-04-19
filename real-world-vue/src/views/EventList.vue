@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1>Events Listing</h1>
+    <h1>Events List</h1>
     <EventCard/>
-
+    <BaseIcon name="activity"/>
   </div>
 </template>
 
