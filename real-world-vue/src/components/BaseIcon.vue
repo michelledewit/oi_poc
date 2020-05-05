@@ -3,6 +3,7 @@
     <svg class="icon" :width="width" :height="height">
       <use v-bind="{ 'xlink:href': '/feathet-spread.svg#' + name }" />
     </svg>
+    <slot></slot>
   </div>
 </template>
 
